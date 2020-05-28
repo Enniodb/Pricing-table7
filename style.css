@@ -1,1 +1,160 @@
+body {
+    background-color: midnightblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+header{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+header h2 {
+    font-size: 0.9em;
+}
+header a{
+    background-color: darkorange;
+    padding: 4px;
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+    border-radius: 5px;
+ }
 
+.container {
+    text-align: center;
+}
+
+.pricing-table-basic {
+    -webkit-box-shadow: 0px 0px 3px #26292e;
+    box-shadow: 0px 0px 3px #26292e;
+    display: inline-block;
+    margin: 30px 10px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.pricing-table-basic-header h1 {
+    color: midnightblue;
+    font-size: medium;
+}
+
+.pricing-table-basic-header h3 {
+    color: black;
+    font-size: smaller;
+    border-bottom: 1px solid lightgray;
+   padding-bottom: 10px;
+}
+
+.pricing-table-basic-content {
+    color: black;
+    text-align: left;
+    font-size: small;
+}
+ul {
+    list-style-type: none;
+}
+.pricing-table-basic-footer {
+    background-color: lightgray;
+    padding:5px;
+    margin-block-end: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.pricing-table-basic-footer a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.pricing-table-business {
+    -webkit-box-shadow: 1px 1px 3px #26292e;
+    box-shadow: 1px 1px 3px #26292e;
+    display: inline-block;
+    margin: 30px 10px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.pricing-table-business-header h1 {
+    color: midnightblue;
+    font-size: medium;
+}
+
+.pricing-table-business-header h3 {
+    color: black;
+    font-size: smaller;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.pricing-table-business-content {
+    color: black;
+    text-align: left;
+    font-size: small;
+}
+
+.pricing-table-business-footer {
+    background-color: lightgray;
+    padding:5px;
+    margin-block-end: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.pricing-table-business-footer a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.pricing-table-enterprise{
+    -webkit-box-shadow: 0px 0px 3px #26292e;
+    box-shadow: 0px 0px 3px #26292e;
+    display: inline-block;
+    margin: 30px 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.pricing-table-enterprise-header{
+    font-size: 0.5em;
+    border: 1px solid lightgray;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.pricing-table-enterprise-content{
+    font-size: small;
+    text-align:  left;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid midnightblue;
+}
+
+.pricing-table-enterprise-footer {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.pricing-table-enterprise-footer a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+span {
+    color: red;
+}
+
+strong {
+    font-size: 2em;
+    float: left;
